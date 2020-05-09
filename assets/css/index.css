@@ -1,0 +1,26 @@
+.mr{
+    margin-right: 100px;
+}
+.card:first-of-type{
+    margin-top: 2rem;
+}
+.card:last-of-type{
+    margin-bottom: 2rem;
+}
+li{
+    list-style: none;
+}
+.banner{
+    background-image: url("../imagem/banner.jpg");
+}
+@media screen and (max-width: 680px) {
+    figure{
+        width:100%;
+    }
+    .level.card{
+        margin-bottom: 10%;
+    }
+    .mr{
+        margin-right: 10px;
+    }
+  }
